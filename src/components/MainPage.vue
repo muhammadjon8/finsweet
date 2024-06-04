@@ -23,7 +23,7 @@
           </div>
         </div>
         <div class="w-[50%]">
-          <img src="../../Illustration.svg" alt="" />
+          <img src="/Illustration.svg" alt="" />
         </div>
       </div>
     </div>
