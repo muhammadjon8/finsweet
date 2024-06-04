@@ -1,0 +1,35 @@
+<script setup></script>
+<template>
+  <div class="bg-[#1C1E53] py-9">
+    <div class="container">
+      <div class="py-9 flex items-center justify-between">
+        <div class="w-[560px] gap-5 flex flex-col">
+          <h1
+            class="text-[50px] font-semibold text-white leading-[64px] font-[Poppins]"
+          >
+            Building stellar websites for early startups
+          </h1>
+          <p class="text-white font-medium">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt.
+          </p>
+          <div class="flex gap-[40px]">
+            <button
+              class="py-4 border border-none bg-[#FCD980] rounded-full px-14"
+            >
+              View our work
+            </button>
+            <button class="py-4 text-white">View pricing -></button>
+          </div>
+        </div>
+        <div class="w-[50%]">
+          <img src="../assets/illustration.svg" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<style scoped>
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+</style>
