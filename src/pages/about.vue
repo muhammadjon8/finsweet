@@ -1,5 +1,5 @@
 <script setup>
-import ABoutUs from "../components/About/ABoutUs.vue";
+import ABoutUs from "../components/About/AboutUs.vue";
 import Goals from "../components/About/Goals.vue";
 </script>
 
