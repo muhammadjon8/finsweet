@@ -9,7 +9,7 @@
       </div>
       <div class="grid grid-cols-3 py-3 px-9 gap-4">
         <div class="col-span-2 row-span-2 parent relative overflow-hidden">
-          <img src="../assets/Card.png" alt="" />
+          <img src="../../assets/Card.png" alt="" />
           <div
             class="overlay absolute top-0 left-0 w-0 h-full bg-blue-900/90 transition-all duration-500 ease-in-out flex items-end justify-start"
           >
@@ -27,7 +27,7 @@
           </div>
         </div>
         <div class="relative overflow-hidden rasm">
-          <img src="../assets/rasm1.png" alt="" />
+          <img src="../../assets/rasm1.png" alt="" />
           <div
             class="overlay absolute top-0 left-0 w-0 h-full bg-blue-900/90 transition-all duration-500 ease-in-out flex items-end justify-start"
           >
@@ -40,7 +40,7 @@
           </div>
         </div>
         <div class="relative overflow-hidden rasm">
-          <img src="../assets/rasm2.png" alt="" />
+          <img src="../../assets/rasm2.png" alt="" />
           <div
             class="overlay absolute top-0 left-0 w-0 h-full bg-blue-900/90 transition-all duration-500 ease-in-out flex items-end justify-start"
           >

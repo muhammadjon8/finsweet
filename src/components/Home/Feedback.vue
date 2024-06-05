@@ -18,7 +18,7 @@
           </h3>
           <div class="flex justify-between items-center">
             <div class="py-5 flex gap-5">
-              <img src="../assets/woman.png" alt="" class="rounded-full" />
+              <img src="../../assets/woman.png" alt="" class="rounded-full" />
               <div>
                 <p class="text-[18px] font-normal">Jenny Wilson</p>
                 <p class="text-[12px] font-normal">Vice president</p>

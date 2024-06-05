@@ -10,7 +10,7 @@
         </h2>
         <div class="grid grid-cols-3 gap-5">
           <div class="flex flex-col gap-3 bg-white p-9 pt-[80px]">
-            <img src="../assets/Icon1.png" alt="" class="w-9 h-9" />
+            <img src="../../assets/Icon1.png" alt="" class="w-9 h-9" />
 
             <h3 class="text-[24px]">Uses Client First</h3>
             <p>
@@ -21,7 +21,7 @@
             </p>
           </div>
           <div class="flex flex-col gap-3 bg-white p-9 pt-[80px]">
-            <img src="../assets/Icon.png" alt="" class="w-9 h-9" />
+            <img src="../../assets/Icon.png" alt="" class="w-9 h-9" />
             <h3 class="text-[24px]">Two Free Revision Round</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
@@ -31,7 +31,7 @@
             </p>
           </div>
           <div class="flex flex-col gap-3 bg-white p-9 pt-[80px]">
-            <img src="../assets/Icon.png" alt="" class="w-9 h-9" />
+            <img src="../../assets/Icon.png" alt="" class="w-9 h-9" />
             <h3 class="text-[24px]">Template Customization</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
@@ -41,7 +41,7 @@
             </p>
           </div>
           <div class="flex flex-col gap-3 bg-white p-9 pt-[80px]">
-            <img src="../assets/Icon1.png" alt="" class="w-9 h-9" />
+            <img src="../../assets/Icon1.png" alt="" class="w-9 h-9" />
             <h3 class="text-[24px]">24/7 Support</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
@@ -51,7 +51,7 @@
             </p>
           </div>
           <div class="flex flex-col gap-3 bg-white p-9 pt-[80px]">
-            <img src="../assets/Icon2.png" alt="" class="w-9 h-9" />
+            <img src="../../assets/Icon2.png" alt="" class="w-9 h-9" />
 
             <h3 class="text-[24px]">Quick Delivery</h3>
             <p>
@@ -62,7 +62,7 @@
             </p>
           </div>
           <div class="flex flex-col gap-3 bg-white p-9 pt-[80px]">
-            <img src="../assets/Icon1.png" alt="" class="w-9 h-9" />
+            <img src="../../assets/Icon1.png" alt="" class="w-9 h-9" />
             <h3 class="text-[24px]">Hands-on approach</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
