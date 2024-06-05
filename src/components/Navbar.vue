@@ -1,4 +1,6 @@
-<script setup></script>
+<script setup>
+import { RouterView } from "vue-router";
+</script>
 
 <template>
   <div class="bg-[#1C1E53]">
@@ -6,7 +8,7 @@
       <div class="flex justify-between items-center">
         <img src="../assets/Logo.png" alt="" />
         <div class="flex gap-9 text-[#BBBBCB] items-center">
-          <router-link to="/home" class="hover:text-white">Home</router-link>
+          <router-link to="/" class="hover:text-white">Home</router-link>
           <router-link to="/about" class="hover:text-white"
             >About Us</router-link
           >
@@ -24,5 +26,4 @@
   </div>
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>
