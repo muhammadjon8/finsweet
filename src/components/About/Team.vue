@@ -1,4 +1,5 @@
-<script>
+<script setup>
+
 import { reactive } from "vue";
 
 const arr = reactive([
@@ -23,13 +24,6 @@ const arr = reactive([
     image: "/team2.png",
   },
 ]);
-export default {
-  setup() {
-    return {
-      arr,
-    };
-  },
-};
 </script>
 
 <template>
@@ -48,7 +42,7 @@ export default {
             class="bg-white flex flex-col items-center w-[290px] py-5 relative overflow-hidden group "
           >
             <div
-              class="absolute top-[40px] left-[58px] w-[168px] h-[168px] bg-[url('/blur.png')] bg-no-repeat bg-center z-20 hidden group-hover:block"
+              class="absolute top-[40px] left-[58px] w-[168px] h-[168px] bg-[url('/blur.png')] bg-no-repeat bg-center z-20 opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-200"
             >
               <div class="flex gap-3 absolute top-[120px] left-[50px]">
                 <a href="facebook.com" class="z-30"
