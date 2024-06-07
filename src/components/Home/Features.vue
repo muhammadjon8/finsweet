@@ -8,7 +8,7 @@
         <h2 class="font-semibold text-3xl w-[330px] text-center">
           Design that solves problems, one product at a time
         </h2>
-        <div class="grid grid-cols-3 gap-5">
+        <div class="grid md:grid-cols-3 gap-5">
           <div class="flex flex-col gap-3 bg-white p-9 pt-[80px] transform transition-transform hover:duration-700 hover:scale-105 hover:shadow-2xl">
             <img src="../../assets/Icon1.png" alt="" class="w-9 h-9" />
 

@@ -2,27 +2,27 @@
 <template>
   <div class="bg-[#1C1E53] py-9 max-sm: px-3">
     <div class="container">
-      <div class="py-9 md:flex w-full items-center justify-between ">
-        <div class="w-[560px] gap-5 flex flex-col">
+      <div class="py-9 md:flex w-full items-center justify-between max-sm:gap-3">
+        <div class="md:w-[40%] w-full gap-5 flex flex-col">
           <h1
             class="md:text-[50px] font-semibold text-white leading-[64px] max-sm:text-3xl max-sm:text-center"
           >
             Building stellar websites for early startups
           </h1>
-          <p class="text-white font-medium">
+          <p class="text-white font-medium max-sm:text-center">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt.
           </p>
-          <div class="flex gap-[40px]">
+          <div class="flex gap-[40px] max-sm:py-3 items-center max-sm:justify-center">
             <button
-              class="py-4 border border-none bg-[#FCD980] rounded-full px-14"
+              class="md:py-4 border border-none bg-[#FCD980] rounded-full md:px-14 max-sm:text-[12px] max-sm:px-2 max-sm:py-3"
             >
               View our work
             </button>
-            <button class="py-4 text-white">View pricing -></button>
+            <button class="md:py-4 text-white max-sm:text-[12px] max-sm:py-2">View pricing -></button>
           </div>
         </div>
-        <div class="w-[50%]">
+        <div class="md:w-[50%]">
           <img src="/Illustration.svg" alt="" />
         </div>
       </div>

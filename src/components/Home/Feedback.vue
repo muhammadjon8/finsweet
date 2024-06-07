@@ -4,13 +4,13 @@ import { ref } from "vue";
 // Testimonials data
 const testimonials = ref([
   {
-    text: "The best agency we’ve worked with so far. They understand our product.",
+    text: "The best agency we’ve worked with so far. They understand our product on what to buy and sell.",
     name: "Jenny Wilson",
     position: "Vice president",
     image: "/woman.png",
   },
   {
-    text: "Amazing service! They exceeded our expectations in every way. Highly recommend this agency.",
+    text: "Amazing service! They exceeded our expectations in every way. Highly recommended",
     name: "John Doe",
     position: "CEO",
     image: "/woman.png",
@@ -58,7 +58,7 @@ const nextTestimonial = () => {
           </p>
         </div>
         <div class="flex w-full lg:w-[70%] flex-col gap-5">
-          <h3 class="text-3xl font-semibold">
+          <h3 class="text-2xl font-semibold">
             "{{ testimonials[currentTestimonialIndex].text }}"
           </h3>
           <div class="flex justify-between items-center">

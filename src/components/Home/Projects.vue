@@ -7,7 +7,7 @@
         <h3 class="font-[Poppins] text-3xl font-medium">View Our Projects</h3>
         <button class="py-4">View More -></button>
       </div>
-      <div class="grid grid-cols-3 py-3 px-9 gap-4">
+      <div class="grid md:grid-cols-3 py-3 md:px-9 gap-4">
         <div class="col-span-2 row-span-2 parent relative overflow-hidden">
           <img src="../../assets/Card.png" alt="" />
           <div

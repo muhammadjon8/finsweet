@@ -3,7 +3,7 @@
 <template>
   <div class="bg-[#1C1E53] py-9">
     <div class="container">
-      <div class="flex gap-9">
+      <div class="md:flex gap-9">
         <div class="text-white w-[50%]">
           <img src="../assets/Logo.png" alt="" />
           <p class="py-5 w-[350px]">
@@ -25,7 +25,7 @@
           </div>
         </div>
       </div>
-      <div class="flex gap-3 bg-[#FCD980] text-black w-[500px]">
+      <div class="flex gap-3 bg-[#FCD980] text-black md:w-[40%] max-sm:my-5">
         <div class="p-3">
           <p class="text-[18px] font-medium">Email me at</p>
           <p>contact@website.com</p>
