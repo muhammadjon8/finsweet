@@ -14,7 +14,7 @@
             class="overlay absolute top-0 left-0 w-0 h-full bg-blue-900/90 transition-all duration-500 ease-in-out flex items-end justify-start"
           >
             <div class="content text-center hidden p-5">
-              <h3 class="text-white mb-4 text-left font-normal text-[24px]">
+              <h3 class="text-white mb-4 text-left font-normal md:text-[24px]">
                 Workhub office Webflow Webflow Design
               </h3>
               <p class="text-left text-white mb-4">
@@ -31,8 +31,8 @@
           <div
             class="overlay absolute top-0 left-0 w-0 h-full bg-blue-900/90 transition-all duration-500 ease-in-out flex items-end justify-start"
           >
-            <div class="content text-center hidden p-5">
-              <h3 class="text-white mb-4 text-left font-normal text-[24px]">
+            <div class="content text-center hidden p-5 max-sm:text-[12px]">
+              <h3 class="text-white md:mb-4 text-left font-normal md:text-[24px]">
                 Unisaas Website Design
               </h3>
               <button class="text-yellow-500 py-2 px-4">View Project -></button>
@@ -44,8 +44,8 @@
           <div
             class="overlay absolute top-0 left-0 w-0 h-full bg-blue-900/90 transition-all duration-500 ease-in-out flex items-end justify-start"
           >
-            <div class="content text-center hidden p-5">
-              <h3 class="text-white mb-4 text-left font-normal text-[24px]">
+            <div class="content text-center hidden p-5 max-sm:text-[12px]">
+              <h3 class="text-white md:mb-4 text-left font-normal md:text-[24px]">
                 Unisaas Website Design
               </h3>
 
