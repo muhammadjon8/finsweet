@@ -18,10 +18,10 @@
             presence and help with your UX/UI design challenges.
           </p>
           <div class="flex gap-4">
-            <button><img src="../assets/facebook.svg" alt="" /></button>
-            <button><img src="../assets/instagram.svg" alt="" /></button>
-            <button><img src="../assets/facebook.svg" alt="" /></button>
-            <button><img src="../assets/instagram.svg" alt="" /></button>
+            <a href="https://instagram.com"><img src="../assets/instagram.svg" alt="" /></a>
+            <a href="https://facebook.com"><img src="../assets/facebook.svg" alt="" /></a>
+            <a href="https://instagram.com"><img src="../assets/instagram.svg" alt="" /></a>
+            <a href="https://twitter.com"><img src="../assets/twitter.svg" alt="" /></a>
           </div>
         </div>
       </div>
