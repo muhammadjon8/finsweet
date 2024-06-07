@@ -66,7 +66,7 @@ function toggleAccordion(index) {
                   <span>{{ q.question }}</span>
                 </div>
                 <span
-                  class="text-xl duration-200"
+                  class="text-2xl duration-200"
                   :class="q.isOpen ? 'rotate-45' : ''"
                   >+</span
                 >
