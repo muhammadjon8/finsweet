@@ -3,7 +3,7 @@
 <template>
   <div class="py-[100px]">
     <div class="container">
-      <div class="flex flex-col items-center">
+      <div class="flex flex-col items-center py-3">
         <div class="py-[50px]">
           <h1 class="text-5xl font-semibold pb-3 text-center py-3">Contact Us</h1>
           <p class="text-center md:w-[500px]">

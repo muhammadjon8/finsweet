@@ -59,9 +59,9 @@ function toggleAccordion(index) {
             >
               <div
                 class="flex justify-between items-center"
-                :class="!q.isOpen ? 'border-b border-b-black duration-200' : ''"
+                :class="!q.isOpen ? 'border-b border-b-black/50 duration-200 pb-2' : ''"
               >
-                <div class="flex gap-8">
+                <div class="flex gap-8 items-center">
                   <span class="text-blue-500 text-2xl">0{{ index + 1 }}</span>
                   <span>{{ q.question }}</span>
                 </div>
@@ -74,7 +74,7 @@ function toggleAccordion(index) {
               <div
                 class="body px-5 text-[14px] text-gray-600 overflow-hidden duration-200"
                 :class="
-                  q.isOpen ? 'max-h-[500px] border-b border-b-black' : 'max-h-0'
+                  q.isOpen ? 'max-h-[500px] border-b border-b-black pb-2' : 'max-h-0'
                 "
               >
                 <div class="px-8">
