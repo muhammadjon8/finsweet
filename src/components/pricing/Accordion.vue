@@ -44,7 +44,7 @@ function toggleAccordion(index) {
 <template>
   <div class="py-[100px]">
     <div class="container">
-      <div class="flex gap-9">
+      <div class="md:flex gap-9">
         <div class="w-[70%]">
           <h3 class="text-5xl font-semibold py-4">
             Frequently asked questions

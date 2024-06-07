@@ -51,12 +51,12 @@ const prices = ref([
       <div>
         <div class="flex flex-col items-center py-3">
           <h2 class="text-3xl font-semibold py-3">Our Pricing Plans</h2>
-          <p class="text-black/60 w-[570px] text-center">
+          <p class="text-black/60 md:w-[570px] text-center">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis a
             iusto inventore quis, ratione quo suscipit non enim dolor hic porro
           </p>
         </div>
-        <div class="flex gap-5 py-5">
+        <div class="md:flex gap-5 py-5">
           <div v-for="(data, index) in prices" :key="index">
             <div
               :class="index == 1 ? 'bg-[#1C1E53] text-white' : 'bg-[#F4F6FC]'"
