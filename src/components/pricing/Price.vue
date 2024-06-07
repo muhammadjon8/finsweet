@@ -57,7 +57,7 @@ const prices = ref([
           </p>
         </div>
         <div class="md:flex gap-5 py-5">
-          <div v-for="(data, index) in prices" :key="index">
+          <div v-for="(data, index) in prices" :key="index" class="max-sm:py-3">
             <div
               :class="index == 1 ? 'bg-[#1C1E53] text-white' : 'bg-[#F4F6FC]'"
               class="flex flex-col border py-3 px-9 h-[600px] relative rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl"
