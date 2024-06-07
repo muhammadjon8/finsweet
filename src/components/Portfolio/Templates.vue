@@ -51,7 +51,7 @@ const setActiveLink = (link) => {
 <template>
   <div class="py-9">
     <div class="container">
-      <div class="flex gap-5 justify-center py-5 pb-3">
+      <div class="flex gap-5 items-center justify-center py-5 pb-3">
         <a 
           href="#all" 
           :class="{'text-blue-500': activeLink === 'all'}"
