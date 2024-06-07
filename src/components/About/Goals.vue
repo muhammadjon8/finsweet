@@ -4,10 +4,10 @@
   <div class="py-9">
     <div class="container">
       <div class="flex flex-col bg-[#F4F5F5]">
-        <div class="flex px-9 py-9">
+        <div class="md:flex px-9 py-9">
           <div>
             <h2 class="font-semibold text-[28px] py-5">Goals focused</h2>
-            <p class="w-4/5 text-[14px] text-black/50">
+            <p class="md:w-4/5 text-[14px] text-black/50">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Veritatis, officia velit et nemo minima incidunt iure. Cum maxime,
               soluta necessitatibus laborum assumenda mollitia, sint, totam qui
@@ -18,7 +18,7 @@
             <h2 class="font-semibold text-[28px] py-5">
               Continuous Development
             </h2>
-            <p class="w-4/5 text-[14px] text-black/50">
+            <p class="md:w-4/5 text-[14px] text-black/50">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel,
               distinctio. Veniam eius maxime accusantium id vero odio, aut,
               omnis a adipisci ipsa aperiam? Qui, saepe a. Officia debitis
@@ -27,7 +27,7 @@
           </div>
         </div>
         <div>
-          <img src="../../assets/man.png" alt="" />
+          <img src="../../assets/man.png" alt="" class="max-sm:h-full"/>
         </div>
       </div>
     </div>
