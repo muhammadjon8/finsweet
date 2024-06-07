@@ -8,15 +8,15 @@
           <h1 class="text-5xl font-semibold pb-3 text-center py-3">
             Contact Us
           </h1>
-          <p class="text-center w-[500px]">
+          <p class="text-center md:w-[500px]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore.
           </p>
         </div>
         <div
-          class="grid grid-cols-2 w-[1061px] h-[600px] bg-[#F4F6FC] p-9 gap-5"
+          class="md:grid grid-cols-2 md:w-[1061px] md:h-[600px] bg-[#F4F6FC] p-9 gap-5 w-full"
         >
-          <div class="">
+          <div class="py-3">
             <p class="font-semibold">Name</p>
             <input
               type="text"
@@ -56,7 +56,7 @@
               class="h-[200px] w-full py-3 px-3 resize-none border outline-none focus:border-blue-500 bg-[#F4F6FC]"
             ></textarea>
           </div>
-          <button class="px-9 py-3 bg-black text-white w-[50%] rounded-full">
+          <button class="px-9 py-3 bg-black text-white md:w-[50%] rounded-full">
             Send Message
           </button>
         </div>
