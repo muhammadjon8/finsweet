@@ -4,7 +4,7 @@
   <div class="py-9">
     <div class="container">
       <div class="flex flex-col items-center">
-        <h1 class="text-center text-5xl font-semibold md:w-[900px] pt-5">
+        <h1 class="text-center md:text-5xl text-3xl font-semibold md:w-[900px] pt-5">
           A UX Case Study on Creating a Studious Environment for Students
         </h1>
         <div class="flex gap-3 py-5">
