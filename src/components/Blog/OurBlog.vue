@@ -58,7 +58,7 @@ const data = reactive([
     <div class="container">
       <div class="flex flex-col items-center">
         <h2 class="text-5xl font-semibold py-5">Our Blog</h2>
-        <div class="grid grid-cols-3 gap-5">
+        <div class="md:grid grid-cols-3 gap-5">
           <div
             v-for="(item, index) in data"
             :key="index"
