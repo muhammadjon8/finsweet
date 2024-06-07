@@ -5,7 +5,9 @@
     <div class="container">
       <div class="md:flex gap-9">
         <div class="text-white w-[50%]">
-          <img src="../assets/Logo.png" alt="" />
+          <router-link to="/">
+            <img src="../assets/Logo.png" alt="" />
+          </router-link>
           <p class="py-5 w-[350px]">
             We are always open to discuss your project and improve your online
             presence.
@@ -18,10 +20,18 @@
             presence and help with your UX/UI design challenges.
           </p>
           <div class="flex gap-4">
-            <a href="https://instagram.com"><img src="../assets/instagram.svg" alt="" /></a>
-            <a href="https://facebook.com"><img src="../assets/facebook.svg" alt="" /></a>
-            <a href="https://instagram.com"><img src="../assets/instagram.svg" alt="" /></a>
-            <a href="https://twitter.com"><img src="../assets/twitter.svg" alt="" /></a>
+            <a href="https://instagram.com"
+              ><img src="../assets/instagram.svg" alt=""
+            /></a>
+            <a href="https://facebook.com"
+              ><img src="../assets/facebook.svg" alt=""
+            /></a>
+            <a href="https://instagram.com"
+              ><img src="../assets/instagram.svg" alt=""
+            /></a>
+            <a href="https://twitter.com"
+              ><img src="../assets/twitter.svg" alt=""
+            /></a>
           </div>
         </div>
       </div>

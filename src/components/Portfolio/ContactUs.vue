@@ -11,7 +11,7 @@
           Nullam vitae purus at tortor mattis dapibus. Morbi purus est,
           ultricies nec dolor sit amet, scelerisque cursus purus.
         </p>
-        <button class="py-2 px-5 bg-yellow-500 rounded-full">Contact Us</button>
+        <router-link to="/contacts" class="py-2 px-5 bg-yellow-500 rounded-full">Contact Us</router-link>
       </div>
     </div>
   </div>

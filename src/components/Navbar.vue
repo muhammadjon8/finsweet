@@ -30,7 +30,9 @@ const goto = () => {
   <div class="bg-[#1C1E53]">
     <div class="container py-8">
       <div class="flex justify-between items-center">
-        <img src="../assets/Logo.png" alt="Logo" />
+        <router-link to="/">
+          <img src="../assets/Logo.png" alt="" />
+        </router-link>
         <div class="flex gap-9 text-[#BBBBCB] items-center max-sm:hidden">
           <router-link
             to="/"
