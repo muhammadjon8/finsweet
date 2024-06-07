@@ -14,12 +14,12 @@
             eiusmod tempor incididunt.
           </p>
           <div class="flex gap-[40px] max-sm:py-3 items-center max-sm:justify-center">
-            <button
+            <router-link to="/work"
               class="md:py-4 border border-none bg-[#FCD980] rounded-full md:px-14 max-sm:text-[12px] max-sm:px-2 max-sm:py-3"
             >
               View our work
-            </button>
-            <button class="md:py-4 text-white max-sm:text-[12px] max-sm:py-2">View pricing -></button>
+            </router-link>
+            <router-link to="/pricing" class="md:py-4 text-white max-sm:text-[12px] max-sm:py-2">View pricing -></router-link>
           </div>
         </div>
         <div class="md:w-[50%]">
