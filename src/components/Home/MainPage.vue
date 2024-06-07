@@ -1,11 +1,11 @@
 <script setup></script>
 <template>
-  <div class="bg-[#1C1E53] py-9">
+  <div class="bg-[#1C1E53] py-9 max-sm: px-3">
     <div class="container">
-      <div class="py-9 flex items-center justify-between">
+      <div class="py-9 md:flex w-full items-center justify-between ">
         <div class="w-[560px] gap-5 flex flex-col">
           <h1
-            class="text-[50px] font-semibold text-white leading-[64px] font-[Poppins]"
+            class="md:text-[50px] font-semibold text-white leading-[64px] max-sm:text-3xl max-sm:text-center"
           >
             Building stellar websites for early startups
           </h1>

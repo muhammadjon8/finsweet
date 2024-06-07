@@ -62,7 +62,7 @@ const data = reactive([
           <div
             v-for="(item, index) in data"
             :key="index"
-            class="transform transition-transform hover:duration-700 hover:scale-105 hover:shadow-2xl hover:px-2"
+            class="transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl px-3"
           >
             <img :src="item.image" alt="" class="py-3" />
             <div class="flex flex-col gap-3">

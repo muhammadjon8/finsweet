@@ -77,7 +77,7 @@ function toggleAccordion(index) {
                   q.isOpen ? 'max-h-[500px] border-b border-b-black' : 'max-h-0'
                 "
               >
-                <div class="p-4">
+                <div class="px-8">
                   {{ q.answer }}
                 </div>
               </div>

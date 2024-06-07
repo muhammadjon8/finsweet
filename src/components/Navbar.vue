@@ -1,8 +1,9 @@
 <script setup>
 import { ref, computed } from "vue";
-import { useRoute } from "vue-router";
+import { useRoute, useRouter } from "vue-router";
 
 const route = useRoute();
+const router = useRouter();
 
 const activeLink = computed(() => {
   switch (route.path) {
@@ -20,6 +21,10 @@ const activeLink = computed(() => {
       return "";
   }
 });
+
+const goto = () => {
+  router.push("/contacts");
+};
 </script>
 <template>
   <div class="bg-[#1C1E53]">
@@ -73,7 +78,10 @@ const activeLink = computed(() => {
           >
             Blog
           </router-link>
-          <button class="border border-[#F4F6FC33] py-4 px-9 rounded-full hover:bg-white hover:text-black">
+          <button
+            @click="goto"
+            class="border border-[#F4F6FC33] py-4 px-9 rounded-full hover:bg-white hover:text-black"
+          >
             Contact us
           </button>
         </div>
