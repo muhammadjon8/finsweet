@@ -73,7 +73,7 @@ const activeLink = computed(() => {
           >
             Blog
           </router-link>
-          <button class="border border-[#F4F6FC33] py-4 px-9 rounded-full">
+          <button class="border border-[#F4F6FC33] py-4 px-9 rounded-full hover:bg-white hover:text-black">
             Contact us
           </button>
         </div>
