@@ -5,8 +5,8 @@
     <div class="container">
       <div class="flex flex-col items-center gap-3">
         <p class="text-[#282938]">What we created</p>
-        <h1 class="text-5xl font-semibold pb-3">Our Work Portfolio</h1>
-        <p class="text-[#282938] text-center w-[700px]">
+        <h1 class="text-5xl font-semibold pb-3 text-center">Our Work Portfolio</h1>
+        <p class="text-[#282938] text-center md:w-[700px]">
           We help teams create great digital products by providing them with
           tools and technology to make the design-to-code process universally
           accessible.

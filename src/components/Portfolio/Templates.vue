@@ -85,7 +85,7 @@ const setActiveLink = (link) => {
           Figma Design
         </a>
       </div>
-      <div class="grid grid-cols-2 gap-8">
+      <div class="md:grid grid-cols-2 gap-8">
         <div v-for="item in data" :key="item.id" class="py-6">
           <img :src="item.image" alt="" />
           <p class="text-3xl font-semibold">Template {{ item.id }}</p>
